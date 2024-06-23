@@ -1,0 +1,105 @@
+/* formatos.css */
+
+/* Definir classe para o logotipo */
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* Formatação das áreas semânticas */
+header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff; /* Texto em branco */
+}
+
+nav {
+    background-color: #007bff;
+    color: #ff0000;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Texto em branco */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #ffffff; /* Texto em branco */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Características tipográficas globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos específicos para a página inicial */
+body.home, body.home header, body.home nav ul li a, body.home main, body.home footer, body.home h1, body.home h2, body.home h3, body.home p {
+    color: #ffffff; /* Texto em branco */
+}
+
+/* Estilos específicos para a página de cadastro */
+body.cadastro, body.cadastro header, body.cadastro nav ul li a, body.cadastro main, body.cadastro footer, body.cadastro h1, body.cadastro h2, body.cadastro h3, body.cadastro p {
+    color: #000000; /* Texto em preto */
+}
+
+/* Modo flex */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Overflow-y automático para a área principal */
+main {
+    overflow-y: auto;
+}
+
+/* Dimensões para as áreas */
+header {
+    height: 60px;
+}
+
+main {
+    height: calc(100vh - 100px);
+}
+
+footer {
+    height: 25px;
+}
+
+/* Alteração para observar a barra de rolagem */
+main {
+    border: 1px solid red;
+}

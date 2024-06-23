@@ -1,0 +1,17 @@
+/* Estilo CSS para o card */
+.card {
+    background-color: transparent; /* Fundo transparente */
+    border: none;
+    overflow: hidden; /* Evita que a imagem ultrapasse o card */
+    position: relative; /* Permite o posicionamento absoluto da imagem */
+}
+
+/* Estilo CSS para a imagem */
+.card-img-top {
+    position: absolute; /* Posicionamento absoluto em relação ao card */
+    top: 0; /* Alinha a imagem ao topo do card */
+    left: 0; /* Alinha a imagem à esquerda do card */
+    width: 100%; /* Ocupa toda a largura do card */
+    height: 100%; /* Ocupa toda a altura do card */
+    object-fit: cover; /* Cubra todo o espaço do card mantendo a proporção */
+}
